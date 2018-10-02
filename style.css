@@ -1,6 +1,7 @@
 /* Global Styles */
 * {
   box-sizing: border-box;
+  font-family: 'Chakra Petch', sans-serif;
 
 }
 
@@ -11,6 +12,7 @@ html {
 body {
   padding: 0px;
   margin: 0px;
+  
 }
 .image-container {
   overflow: hidden;
@@ -35,23 +37,9 @@ p {
 }
 
 #banner {
-  height: 46rem;
-  background-image: url('heart.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+ width: 100%;
 }
 
-#banner h1 {
-  font-size: 3.75rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  color: white;
-}
 
 /* Blog Post */
 
@@ -65,7 +53,7 @@ p {
 }
 
 #blog .post {
-  width: 52%;
+  width: 80%;
   margin-top: 12.5%;
   margin-bottom: 7.5%;
   display: flex;
@@ -76,13 +64,12 @@ p {
   font-size: 1.2em;
   text-align: center;
   line-height: 1.8;
-  color: #310b0b;
-  text-shadow: 2px 2px rgb(231, 219, 217);
+  color: white;
 }
 
 .post h2 {
   font-size: 1.875rem;
-  text-shadow: 2px 2px rgb(3, 16, 88);
+
 }
 
 ul.mainnav{
@@ -92,7 +79,7 @@ ul.mainnav{
   background-color: red;
   display: flex;
   justify-content: space-around;
-  margin-top: -20px;
+  margin-top: -21px;
   position: fixed;
 }
 
@@ -107,12 +94,14 @@ ul.mainnav{
 .post .opening-line {
   margin-top: 4.1875rem;
   margin-bottom: 1.5rem;
-  color: black;
+  color: orange;
   font-weight: bold;
 }
 
 .post .image-container {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 #intresse {
