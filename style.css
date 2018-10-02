@@ -72,6 +72,7 @@ p {
 
 }
 
+
 ul.mainnav{
   width: 100%;
   overflow: auto;
@@ -79,17 +80,13 @@ ul.mainnav{
   background-color: red;
   display: flex;
   justify-content: space-around;
-  margin-top: -21px;
   position: fixed;
+  margin: 0;
 }
 
 .mainnav li{
     list-style: none;
 }
-/* .post h3 {
-  font-size: 1.125rem;
-  color: #999999;
-} */
 
 .post .opening-line {
   margin-top: 4.1875rem;
@@ -119,6 +116,12 @@ ul.mainnav{
 .images .image-container {
   display: inline-block;
   width: 50%;
+}
+
+/* Page 2 */
+
+#mainContainer2 {
+  padding-top: 60px;
 }
 
 /* Footer */
