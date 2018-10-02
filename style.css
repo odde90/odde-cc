@@ -107,6 +107,10 @@ ul.mainnav{
   background-color: rebeccapurple;
 }
 
+ul li{
+  list-style: none;
+}
+
 /* Blog Images */
 
 .images {
@@ -122,6 +126,7 @@ ul.mainnav{
 
 #mainContainer2 {
   padding-top: 60px;
+  background-color: purple;
 }
 
 /* Footer */
